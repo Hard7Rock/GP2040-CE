@@ -1,0 +1,40 @@
+export default {
+        'input-macro-board-led-enabled': 'Використовувати LED на платі для відображення статусу макросу',
+        'input-macro-macro-enabled': 'Увімкнено',
+        'input-macro-macro-enabled-badge': 'Увімкнено',
+        'input-macro-macro-disabled-badge': 'Вимкнено',
+        'input-macro-macro-exclusive':
+                'Ексклюзивно (не можна перемикати на інший макрос)',
+        'input-macro-macro-interruptible':
+                'Переривний (дія користувача скасовує макрос)',
+        'input-macro-macro-show-frames': 'Показувати кадри (1 кадр = 16.666 мс)',
+        'input-macro-macro-uses-buttons':
+                'Використовувати кнопку макросу + кнопку геймпада для активації',
+        'input-macro-macro-button-pin-plus': 'Призначенна кнопка:',
+        'input-macro-header-text': 'Огляд',
+        'input-macro-macro-list-txt': 'Макрос {{macroNumber}}',
+        'input-macro-duration-label': 'Тривалість',
+        'input-macro-wait-duration-label': 'Тривалість очікування',
+        'input-macro-time-label-ms': 'мс',
+        'input-macro-time-label-frames': 'кадр(и)',
+        'input-macro-release-and-wait-label': 'відпустити і чекати ',
+        'input-macro-sub-header':
+                'Примітка: для макросів, привʼязаних до пінів, див. сторінку "Привʼязка пінів" в розділі налаштувань. Макроси також можна призначити кнопці геймпада, використовуючи відповідну кнопку макросу.',
+        'input-macro-macro-label-label': 'Позначка',
+        'input-macro-add-input-label': 'Додати дію +',
+        'input-macro-type': {
+                press: 'Натискання',
+                'hold-repeat': 'Утримування з повторенням',
+                toggle: 'Перемикання',
+        },
+        'macro-name': 'Назва',
+        'macro-activation-type': 'Тип активації',
+        'table-thread-label': 'Позначка',
+        'table-thread-type': 'Тип',
+        'table-thread-assigned-to': 'Призначено до',
+        'table-thread-button': 'Кнопка',
+        'table-thread-actions': 'Дії',
+        'table-thread-status': 'Статус',
+        'input-macro-macro-trigger-type-button': 'Кнопка',
+        'input-macro-macro-trigger-type-pin': 'Пін',
+};

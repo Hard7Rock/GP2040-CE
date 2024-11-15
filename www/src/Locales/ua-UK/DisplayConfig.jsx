@@ -1,0 +1,46 @@
+export default {
+    'header-text': 'Налаштування дисплея',
+    'sub-header-text':
+        'Монохромний дисплей може використовуватися для відображення статусу контролера та активності кнопок. Переконайтеся, що ваш модуль дисплея має такі характеристики:',
+    'list-text':
+        '<1>Монохромний дисплей з роздільною здатністю 128x64</1> <1>Використовує I2C з мікросхемою SSD1306, SH1106, SH1107 або іншою сумісною</1> <1>Підтримує роботу з напругою 3,3v</1>',
+    section: {
+        'hardware-header': 'Опції обладнання',
+        'screen-header': 'Опції екрану',
+        'layout-header': 'Опції компонування',
+    },
+    table: {
+        header:
+            'Використовуйте ці таблиці, щоб визначити, який I2C блок вибрати, залежно від налаштованих пінів SDA та SCL:',
+        'sda-scl-pins-header': 'Піни SDA/SCL',
+        'i2c-block-header': 'I2C блок',
+    },
+    form: {
+        'i2c-block-label': 'I2C блок',
+        'sda-pin-label': 'Пін SDA',
+        'scl-pin-label': 'Пін SCL',
+        'i2c-address-label': 'Адреса I2C',
+        'i2c-speed-label': 'Швидкість I2C',
+        'flip-display-label': 'Перевернути дисплей',
+        'invert-display-label': 'Інвертувати дисплей',
+        'button-layout-label': 'Лівий блок',
+        'button-layout-right-label': 'Правий блок',
+        'button-layout-custom-header': 'Параметри власного розташування кнопок',
+        'button-layout-custom-left-label': 'Лівий блок',
+        'button-layout-custom-right-label': 'Правий блок',
+        'button-layout-custom-start-x-label': 'Початкова X',
+        'button-layout-custom-start-y-label': 'Початкова Y',
+        'button-layout-custom-button-radius-label': 'Радіус кнопки',
+        'button-layout-custom-button-padding-label': 'Відступ між кнопками',
+        'splash-mode-label': 'Режим заставки',
+        'splash-duration-label': 'Тривалість заставки (у секундах, 0 для постійної роботи)',
+        'display-saver-timeout-label': 'Час очікування заставки (у хвилинах)',
+        'inverted-label': 'Інверсія',
+        'power-management-header': 'Керування живленням',
+        'turn-off-when-suspended': 'Вимикати у режимі очікування',
+        'flip-display-none': 'Нічого',
+        'flip-display-flip': 'Перевернути',
+        'flip-display-mirror': 'Віддзеркалити',
+        'flip-display-flip-mirror': 'Перевернути і віддзеркалити',
+    },
+};

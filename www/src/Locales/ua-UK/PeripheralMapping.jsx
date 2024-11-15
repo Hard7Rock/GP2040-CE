@@ -1,0 +1,35 @@
+export default {
+	'header-text': 'Привʼязка периферійних пристроїв',
+	'sub-header-text': '',
+	'pins-label': 'Піни',
+	'pin-in-use': 'задіяно',
+	'i2c-label': 'I\u00B2C',
+	'i2c-desc-header': 'Інформація про I\u00B2C',
+	'i2c-description':
+		'I\u00B2C — це двопровідний інтерфейс, який використовується для підключення додаткових пристроїв, таких як дисплеї, розширення GPIO та сенсори через лінії SDA та SCL. RP2040 підтримує два блоки контролера I\u00B2C: I2C0 та I2C1. Наступні GPIO піни підтримуються для кожного блоку:',
+	'spi-label': 'SPI',
+	'spi-desc-header': 'Інформація про SPI',
+	'spi-description':
+		'SPI — це чотирипровідний інтерфейс, який використовується для підключення додаткових пристроїв, таких як дисплеї, розширення GPIO та сенсори через лінію RX та TX для передачі даних, а також лінію SCK для тактування і лінію CS для синхронізації/вибору чіпа. RP2040 підтримує два блоки контролера SPI: SPI0 та SPI1. Наступні GPIO піни підтримуються для кожного блоку:',
+	'usb-label': 'USB Host',
+	'usb-desc-header': 'Інформація про USB Host',
+	'usb-description':
+		'USB Host дозволяє використовувати підключені USB клієнтські пристрої, такі як клавіатури, геймпади або інші пристрої.',
+	'peripheral-toggle-unavailable':
+		'Не можна ввімкнути. Периферійний пристрій "{{name}}" недоступний. Увімкніть його в розділі <0>Привʼязка периферійних пристроїв</0>.',
+	'pin-sda-label': 'SDA',
+	'pin-scl-label': 'SCL',
+	'option-speed-label': 'Швидкість',
+	'option-speed-choice-100000-label': 'Normal',
+	'option-speed-choice-400000-label': 'Fast',
+	'option-speed-choice-1000000-label': 'Fast Plus',
+	'pin-rx-label': 'RX',
+	'pin-cs-label': 'CS',
+	'pin-sck-label': 'SCK',
+	'pin-tx-label': 'TX',
+	'pin-dp-label': 'D+',
+	'pin-enable5v-label': 'Увімкнути 5V',
+	'option-order-label': 'Порядок пінів',
+	'option-order-choice-0-label': 'D+/D-',
+	'option-order-choice-1-label': 'D-/D+',
+};
